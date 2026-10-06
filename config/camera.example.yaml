@@ -1,0 +1,10 @@
+camera:
+  device: "/dev/video0"
+  width: 640
+  height: 480
+  fps: 30
+  frame_id: "camera"
+
+detection:
+  confidence_threshold: 0.50
+  publish_debug_image: false

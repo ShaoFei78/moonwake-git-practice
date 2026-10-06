@@ -1,0 +1,48 @@
+# C and C++ build outputs
+build/
+install/
+log/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+buoy_offset
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# ROS bags and large runtime data
+*.bag
+*.db3
+*.mcap
+data/
+datasets/
+
+# Model weights and generated inference engines
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Secrets and local-only environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
